@@ -83,7 +83,7 @@
     if (!_demo1) {
         _demo1 = [UIButton buttonWithType:UIButtonTypeSystem];
         _demo1.frame = CGRectMake(0, 100, KScreenWidth, 50);
-        [_demo1 setTitle:@"《华尔街见闻》频道排序" forState:UIControlStateNormal];
+        [_demo1 setTitle:@"《今日头条》频道排序" forState:UIControlStateNormal];
         [_demo1 addTarget:self
                    action:@selector(rightAction:)
          forControlEvents:UIControlEventTouchUpInside];

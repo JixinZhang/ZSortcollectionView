@@ -109,7 +109,7 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
         _flowLayout.minimumLineSpacing = 15;
         _flowLayout.minimumInteritemSpacing = 5;
         _flowLayout.sectionInset = UIEdgeInsetsMake(0, 15, 20, 15);
-        _flowLayout.itemSize = CGSizeMake(50, 25);
+        _flowLayout.itemSize = CGSizeMake(50, 30);
         _flowLayout.scrollDirection = UICollectionViewScrollDirectionVertical;
     }
     return _flowLayout;

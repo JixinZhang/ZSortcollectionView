@@ -40,6 +40,7 @@
     if (!_label) {
         _label = [[UILabel alloc] initWithFrame:self.bounds];
         _label.textColor = [UIColor blackColor];
+        _label.userInteractionEnabled = NO;
         _label.textAlignment = NSTextAlignmentCenter;
     }
     return _label;
